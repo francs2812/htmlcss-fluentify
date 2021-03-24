@@ -21,13 +21,14 @@ body {
 /* heder */
 header {
     width: 100%;
-    height: 600px;
+    height: 700px;
+    position: relative;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-image: url(../img/background-header.png);
-    background-color: #0C325A;
     padding: 2%  0 0 10%;
+    background-color: #0C325A;
 }
 /* parte superiore heder */
 .superiore {
@@ -35,49 +36,44 @@ header {
     height: 10%;
     line-height: 100%;
     text-transform: uppercase;
+    font-size: 5%;
 
     /* background-color: tomato; */
 }
 .superiore img {
+    float: left;
     width: 10%;
-    /* margin-left: 10% ; */
-    display: inline-block;
     vertical-align: middle;
 }
-.superiore ul {
-    width: 28%;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 4%;
+.box-menu {
+    width: 35%;
+    float: left;
+    margin: 1% 0;
+}
+
+.box-menu li {
+    float: left;
+    margin: 3%;
 }
 .superiore ul a {
-    font-size: 10px;
+    font-size: 15px;
     text-decoration: none;
     color: white;
 }
-.superiore ul il {
-    margin: 2px;
-}
-.superiore li {
-    list-style: none;
-    display: inline-block;
+
+.box-login li {
+    float: right;
+    margin: 1%;
 }
 .superiore p {
     width: 100%;
     font-size: 10px;
     color: white;
     margin-right: 2%;
-    display: inline-block;s
 }
-
-.superiore ul:last-child {
-    margin: 0 0 0 15%;
+.box-login {
+    margin-right: 10%;
 }
-
-/* .superiore ul:last-child li:first-child{
-    border: 0;
-} */
-
 
 .superiore .login{
     padding: 5px 9px;
