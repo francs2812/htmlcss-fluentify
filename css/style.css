@@ -84,12 +84,15 @@ header {
     background-color:#0C325A ;
     border: 2px solid white;
 }
+header .centrale a {
+    padding: 15px;
+}
 
 /* /parte superiore heder */
  
 /* heder parte centrale */
 .centrale {
-    width: 60%;
+    width: 25%;
     margin-top: 10%;
     color: white;
 }
@@ -214,11 +217,17 @@ footer li {
     float: left;
     margin-left: 20px;
     color: #808080;
+    margin-top: 5%;
 }
 footer ul {
     position: absolute;
     top: 50%;
     right: 10%;
 }
+
+footer ul .pulsante-verde {
+    padding: 20px 9px;
+    margin-top: 0;
 }
+
 /* /footer */
